@@ -1,0 +1,6 @@
+langchain
+ollama
+fastapi
+spacy
+nltk
+pandas
