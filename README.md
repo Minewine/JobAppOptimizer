@@ -1,4 +1,4 @@
-# 📌 Job Application Optimizerr
+# 📌 Job Application Optimizer
 
 🚀 **AI-powered tool for optimizing CVs & cover letters for ATS & recruiters**
 
