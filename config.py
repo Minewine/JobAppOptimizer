@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 API_BASE = "https://openrouter.ai/api/v1/chat/completions"
-#OPENROUTER_API_KEY = "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"
 
 
 # File Paths
