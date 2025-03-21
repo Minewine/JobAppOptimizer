@@ -1,5 +1,7 @@
 # 📌 Job Application Optimizer
 
+**WIP**
+
 🚀 **AI-powered tool for optimizing CVs & cover letters for ATS & recruiters**
 
 ## 📖 Overview
