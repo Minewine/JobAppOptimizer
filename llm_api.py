@@ -27,7 +27,7 @@ def call_llm(user_prompt, system_message, max_tokens=8000):
             timeout=30
         )
         response.raise_for_status()
-        response_data = response.json()
+        response_data = response.json() 
         #print("🟢 API Raw Response:", response_data)
         
         if "choices" in response_data and response_data["choices"]:
