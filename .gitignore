@@ -6,3 +6,9 @@ rolefiles/*
 
 output/*
 !output/.gitkeep
+
+# Ignore local packages and temp files
+lib/
+qdrant_storage/
+share/
+temp_property_page.html
