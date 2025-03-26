@@ -14,3 +14,7 @@ share/
 temp_property_page.html
 bin/
 include/
+.venv/
+lib/
+bin/
+include/
