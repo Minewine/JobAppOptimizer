@@ -2,7 +2,9 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env file
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+#OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = "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"
+
 API_BASE = "https://openrouter.ai/api/v1/chat/completions"
 
 
@@ -11,7 +13,7 @@ BASE_DIR = "/home/mick/Projects/JobAppOptimizer"
 ROLEFILES_DIR = f"{BASE_DIR}/rolefiles"
 OUTPUT_DIR = f"{BASE_DIR}/output"
 
-CV_LOCATION = f"{ROLEFILES_DIR}/COUGHLAN_CV_2024_EN.pdf"
+CV_LOCATION = f"{ROLEFILES_DIR}/CV.pdf"
 JOB_DESC_LOCATION = f"{ROLEFILES_DIR}/job_desc.pdf"
 ATS_REPORT_PATH = f"{OUTPUT_DIR}/ats_report.md"
 OPTIMIZED_CV_PATH = f"{OUTPUT_DIR}/optimized_cv.md"

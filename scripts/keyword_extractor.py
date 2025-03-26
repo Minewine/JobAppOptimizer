@@ -11,6 +11,7 @@ from llm_api import call_llm  # Import the reusable function
 
 def extract_keywords_with_llm(cv_text, job_desc_text):
     """Extracts job-related insights from a CV and Job Description."""
+    
     if not config.OPENROUTER_API_KEY:
         raise ValueError("❌ OpenRouter API key is missing. Set it in config.py.")
 
