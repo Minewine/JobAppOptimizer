@@ -12,3 +12,5 @@ lib/
 qdrant_storage/
 share/
 temp_property_page.html
+bin/
+include/
