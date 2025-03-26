@@ -18,3 +18,13 @@ include/
 lib/
 bin/
 include/
+.venv/
+lib/
+lib64/
+bin/
+include/
+.venv/
+lib/
+lib64/
+bin/
+include/
