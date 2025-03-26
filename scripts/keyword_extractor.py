@@ -5,7 +5,7 @@ base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.append(base_dir)
 from scripts import file_parser
 
-import config
+import config 
 from config import get_analysis_prompt
 from llm_api import call_llm  # Import the reusable function
 
